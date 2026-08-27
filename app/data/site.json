@@ -1,0 +1,28 @@
+{
+ "name": "Микільсько-Слобідська.info",
+ "short": "Слобідка",
+ "description": "Незаконні забудови на Микільській Слобідці",
+ "social": [
+  {
+   "key": "youtube",
+   "icon": "youtube",
+   "label": "YouTube",
+   "title": "Боротьба за парк на Микільській Слобідці",
+   "href": "https://www.youtube.com/channel/UCs4Q9opDx_gyLleLxYeZSMg"
+  },
+  {
+   "key": "facebook",
+   "icon": "facebook",
+   "label": "Facebook",
+   "title": "Спільнота «Микільська Слобідка»",
+   "href": "https://m.facebook.com/groups/MykilskaSlobidka/"
+  },
+  {
+   "key": "viber",
+   "icon": "viber",
+   "label": "Viber",
+   "title": "Спільнота «Захист Берега»",
+   "href": "https://invite.viber.com/?g2=AQALBUhrykKq%2F0q0s7kdV%2FImkpNSt1gNjbi0A0X4A%2F8O8PIVGpP04BJJK8L1FXf%2F"
+  }
+ ]
+}

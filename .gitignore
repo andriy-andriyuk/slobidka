@@ -1,0 +1,18 @@
+node_modules
+.nuxt
+.output
+.data
+dist
+.env
+.DS_Store
+*.log
+
+# великі резервні копії тримаємо поза репозиторієм:
+#   дамп бази        -> ~/DB_Backups/
+#   оригінальні PDF  -> ~/Archives/slobidka/print-originals/
+archive/database/
+archive/print-originals/
+*.sql
+
+# тимчасові скрипти перевірки
+_*.mjs

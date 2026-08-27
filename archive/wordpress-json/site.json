@@ -1,0 +1,40 @@
+{
+  "name": "Микільсько-Слобідська.info",
+  "description": "Незаконні забудови на Микільській Слобідці",
+  "social": [
+    {
+      "href": "https://www.youtube.com/channel/UCs4Q9opDx_gyLleLxYeZSMg",
+      "label": "youtube"
+    },
+    {
+      "href": "https://m.facebook.com/groups/MykilskaSlobidka/",
+      "label": "facebook"
+    },
+    {
+      "href": "https://invite.viber.com/?g2=AQALBUhrykKq%2F0q0s7kdV%2FImkpNSt1gNjbi0A0X4A%2F8O8PIVGpP04BJJK8L1FXf%2F",
+      "label": "viber"
+    }
+  ],
+  "nav": [
+    {
+      "href": "/crime-story-details/",
+      "label": "Детальна історія злочину"
+    },
+    {
+      "href": "/laws-that-have-been-violated/",
+      "label": "Порушені закони"
+    },
+    {
+      "href": "/злочин-микільсько-слобідська-7-9/",
+      "label": "Злочин: Микільсько-Слобідська 7-9"
+    },
+    {
+      "href": "/print-and-share/",
+      "label": "Роздрукуй та пошир"
+    },
+    {
+      "href": "/долучитися/",
+      "label": "Долучитися"
+    }
+  ]
+}

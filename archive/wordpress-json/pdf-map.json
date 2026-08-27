@@ -1,0 +1,146 @@
+{
+ "/media/2017/08/2015_k.pdf": {
+  "pages": [
+   "/media/2017/08/2015_k.webp"
+  ],
+  "width": 3318,
+  "height": 2339,
+  "bytes": 968072,
+  "thumb": "/media/2017/08/2015_k-thumb.webp"
+ },
+ "/media/2017/08/2015_r.pdf": {
+  "pages": [
+   "/media/2017/08/2015_r-1.webp",
+   "/media/2017/08/2015_r-2.webp",
+   "/media/2017/08/2015_r-3.webp"
+  ],
+  "width": 1664,
+  "height": 2339,
+  "bytes": 1280064,
+  "thumb": "/media/2017/08/2015_r-thumb.webp"
+ },
+ "/media/2017/09/cancellation.pdf": {
+  "pages": [
+   "/media/2017/09/cancellation.webp"
+  ],
+  "width": 1656,
+  "height": 2339,
+  "bytes": 290146,
+  "thumb": "/media/2017/09/cancellation-thumb.webp"
+ },
+ "/media/2017/09/p_2017_1.pdf": {
+  "pages": [
+   "/media/2017/09/p_2017_1-1.webp",
+   "/media/2017/09/p_2017_1-2.webp",
+   "/media/2017/09/p_2017_1-3.webp",
+   "/media/2017/09/p_2017_1-4.webp"
+  ],
+  "width": 1653,
+  "height": 2339,
+  "bytes": 1425892,
+  "thumb": "/media/2017/09/p_2017_1-thumb.webp"
+ },
+ "/media/2017/09/p_2017_2.pdf": {
+  "pages": [
+   "/media/2017/09/p_2017_2-1.webp",
+   "/media/2017/09/p_2017_2-2.webp",
+   "/media/2017/09/p_2017_2-3.webp",
+   "/media/2017/09/p_2017_2-4.webp",
+   "/media/2017/09/p_2017_2-5.webp",
+   "/media/2017/09/p_2017_2-6.webp"
+  ],
+  "width": 1659,
+  "height": 2342,
+  "bytes": 2253510,
+  "thumb": "/media/2017/09/p_2017_2-thumb.webp"
+ },
+ "/media/banners/A3_70_OSCHADBANK_LATEST.pdf": {
+  "pages": [
+   "/media/banners/A3_70_OSCHADBANK_LATEST.webp"
+  ],
+  "width": 4961,
+  "height": 2480,
+  "bytes": 774434,
+  "thumb": "/media/banners/A3_70_OSCHADBANK_LATEST-thumb.webp"
+ },
+ "/media/banners/A3_HISTORY_FINAL.pdf": {
+  "pages": [
+   "/media/banners/A3_HISTORY_FINAL.webp"
+  ],
+  "width": 4963,
+  "height": 3509,
+  "bytes": 1140556,
+  "thumb": "/media/banners/A3_HISTORY_FINAL-thumb.webp"
+ },
+ "/media/banners/A3_LAWS_BETA_2.pdf": {
+  "pages": [
+   "/media/banners/A3_LAWS_BETA_2.webp"
+  ],
+  "width": 4963,
+  "height": 3509,
+  "bytes": 815774,
+  "thumb": "/media/banners/A3_LAWS_BETA_2-thumb.webp"
+ },
+ "/media/banners/A4_NO_AUCTION_DYNAMIC_EDIT_FINAL.pdf": {
+  "pages": [
+   "/media/banners/A4_NO_AUCTION_DYNAMIC_EDIT_FINAL.webp"
+  ],
+  "width": 3508,
+  "height": 2480,
+  "bytes": 396210,
+  "thumb": "/media/banners/A4_NO_AUCTION_DYNAMIC_EDIT_FINAL-thumb.webp"
+ },
+ "/media/banners/A5_QR_2.pdf": {
+  "pages": [
+   "/media/banners/A5_QR_2.webp"
+  ],
+  "width": 1748,
+  "height": 1748,
+  "bytes": 76426,
+  "thumb": "/media/banners/A5_QR_2-thumb.webp"
+ },
+ "/media/banners/DEV_SCALE_LATEST_UPDATES_NEW.pdf": {
+  "pages": [
+   "/media/banners/DEV_SCALE_LATEST_UPDATES_NEW.webp"
+  ],
+  "width": 4961,
+  "height": 3508,
+  "bytes": 766242,
+  "thumb": "/media/banners/DEV_SCALE_LATEST_UPDATES_NEW-thumb.webp"
+ },
+ "/media/docs/20150113_DOC_1.pdf": {
+  "pages": [
+   "/media/docs/20150113_DOC_1-1.webp",
+   "/media/docs/20150113_DOC_1-2.webp"
+  ],
+  "width": 1654,
+  "height": 2339,
+  "bytes": 899500,
+  "thumb": "/media/docs/20150113_DOC_1-thumb.webp"
+ },
+ "/media/docs/20150113_DOC_2.pdf": {
+  "pages": [
+   "/media/docs/20150113_DOC_2.webp"
+  ],
+  "width": 1656,
+  "height": 2339,
+  "bytes": 290146,
+  "thumb": "/media/docs/20150113_DOC_2-thumb.webp"
+ },
+ "/media/docs/20170117_DOC_1.pdf": {
+  "pages": [
+   "/media/docs/20170117_DOC_1-1.webp",
+   "/media/docs/20170117_DOC_1-2.webp",
+   "/media/docs/20170117_DOC_1-3.webp",
+   "/media/docs/20170117_DOC_1-4.webp",
+   "/media/docs/20170117_DOC_1-5.webp",
+   "/media/docs/20170117_DOC_1-6.webp",
+   "/media/docs/20170117_DOC_1-7.webp",
+   "/media/docs/20170117_DOC_1-8.webp"
+  ],
+  "width": 1649,
+  "height": 2333,
+  "bytes": 4801738,
+  "thumb": "/media/docs/20170117_DOC_1-thumb.webp"
+ }
+}

@@ -1,0 +1,21 @@
+# Заголовки для Cloudflare Pages
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# Ресурси з хешем в імені — можна кешувати назавжди
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Архівні матеріали не змінюються, але лишаємо змогу оновити
+/media/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

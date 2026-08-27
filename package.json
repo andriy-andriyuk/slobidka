@@ -1,0 +1,23 @@
+{
+  "name": "slobidka",
+  "private": true,
+  "type": "module",
+  "description": "Микільсько-Слобідська.info — архів громадського розслідування про незаконні забудови на Микільській Слобідці",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate && node scripts/postbuild.mjs",
+    "preview": "npx serve .output/public",
+    "content": "node scripts/prepare-content.mjs",
+    "verify": "node scripts/verify-content.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxtjs/sitemap": "^8.5.0",
+    "lucide-static": "^1.34.0",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.0",
+    "vue-router": "^4.5.0"
+  }
+}
