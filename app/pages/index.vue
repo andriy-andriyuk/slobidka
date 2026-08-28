@@ -47,12 +47,13 @@ const routes = [
 
 const materials = pages.filter((p) => p.context).slice(0, 3)
 
+// title лишаємо порожнім: titleTemplate у app.vue сам підставить назву сайту,
+// інакше вона задвоювалась у вкладці браузера
 useHead({ title: '' })
 useSeoMeta({
-  title: 'Микільсько-Слобідська.info',
-  description: 'Громадський архів про захоплення 7,07 га берега Дніпра на Микільській Слобідці: хронологія подій, документи та перелік порушених законів.',
+  description: 'Громадський архів про спробу рейдерського захоплення 7,07 га берега Дніпра на Микільській Слобідці: хронологія подій, документи та перелік порушених законів.',
   ogTitle: 'Микільсько-Слобідська.info — незаконні забудови на Микільській Слобідці',
-  ogDescription: 'Хронологія захоплення берега Дніпра у громади: документи, рішення, аукціони та порушені закони.',
+  ogDescription: 'Спроба рейдерства 7,07 га берега Дніпра: хронологія, документи, рішення, аукціони та порушені закони.',
   ogImage: '/media/2017/08/2007_LATEST.png',
 })
 </script>
@@ -67,8 +68,8 @@ useSeoMeta({
         </p>
 
         <h1 class="h-display hero__title">
-          У громади забрали<br>
-          <span class="hero__accent">7,07 гектара</span><br>
+          Спроба рейдерства<br class="hero__br">
+          <span class="hero__accent">7,07 гектара</span><br class="hero__br">
           берега Дніпра
         </h1>
 
@@ -222,7 +223,7 @@ useSeoMeta({
 .hero__grid {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr);
   align-items: center;
   gap: clamp(2rem, 5vw, 4rem);
   padding-bottom: clamp(3rem, 6vw, 4.5rem);
@@ -233,9 +234,11 @@ useSeoMeta({
   .hero__figure { max-width: min(26rem, 100%); }
 }
 
-.hero__eyebrow { display: flex; align-items: center; gap: .6rem; color: var(--night-ink2); }
+.hero__eyebrow { display: flex; align-items: start; gap: .6rem; color: var(--night-ink2); }
 
 .dot {
+  flex: none;
+  margin-top: .45em;
   width: .5rem; height: .5rem; border-radius: 100px;
   background: var(--accent);
   box-shadow: 0 0 0 4px rgb(194 64 44 / 25%);

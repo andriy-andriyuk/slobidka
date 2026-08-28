@@ -158,7 +158,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .h-display {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2.1rem, 6.2vw, 4.25rem);
+  font-size: clamp(1.75rem, 5.1vw, 3.45rem);
   line-height: 1.18;
   letter-spacing: -0.035em;
 }
@@ -359,6 +359,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   .prose .doc-pages { font-size: .85rem; }
 
   .btn { font-size: 1rem; padding: .78rem 1.25rem; }
+}
+
+/* на вузьких телефонах довгий перший рядок заголовка ще ламався */
+@media (max-width: 23.5rem) {
+  .h-display { font-size: 1.6rem; }
 }
 
 /* -------------------------------------------------------------- друк */
