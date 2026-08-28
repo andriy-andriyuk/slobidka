@@ -66,4 +66,9 @@ useSeoMeta({
 
 .mcard__go { color: var(--ink-3); flex: none; }
 .mcard:hover .mcard__go { color: var(--accent); }
+
+@media (max-width: 40rem) {
+  .mcard__lead { font-size: .98rem; }
+  .mcard { padding: 1.2rem 1.1rem; }
+}
 </style>

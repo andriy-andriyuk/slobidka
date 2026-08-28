@@ -139,4 +139,10 @@ useSeoMeta({
   align-self: start;
 }
 .sheet__dl:hover { text-decoration: underline; }
+
+@media (max-width: 40rem) {
+  .sheet__title { font-size: 1.08rem; }
+  .sheet__meta { font-size: .82rem; }
+  .sheet__dl { font-size: .95rem; }
+}
 </style>

@@ -95,4 +95,9 @@ const src = computed(() =>
 }
 .vid__cap a { color: inherit; text-decoration: none; }
 .vid__cap a:hover { color: var(--accent); text-decoration: underline; }
+
+@media (max-width: 40rem) {
+  .vid__cap { font-size: .92rem; }
+  .vid__hint { font-size: .76rem; }
+}
 </style>

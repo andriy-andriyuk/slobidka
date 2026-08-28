@@ -141,4 +141,16 @@ const cols = [
   font-size: .85rem;
 }
 .ftr__note { opacity: .7; }
+
+@media (max-width: 40rem) {
+  .ftr { font-size: 1.02rem; }
+
+  /* довгі назви розділів у дві колонки ламаються на три рядки */
+  .ftr__top { grid-template-columns: 1fr; gap: 2rem; }
+  .ftr__col { gap: .7rem; }
+  .ftr__link { font-size: 1rem; }
+  .ftr__bottom { font-size: .92rem; }
+  .ftr__col-title { font-size: .78rem; }
+  .soc { font-size: .92rem; }
+}
 </style>

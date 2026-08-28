@@ -222,4 +222,12 @@ useSeoMeta({
 @media print {
   .law__body { display: block !important; }
 }
+
+@media (max-width: 40rem) {
+  .law__title { font-size: 1.05rem; }
+  .law__excerpt { font-size: .95rem; }
+  .law__body { font-size: 1.09rem; }
+  .chip { font-size: .92rem; }
+  .law__perma { font-size: .92rem; }
+}
 </style>

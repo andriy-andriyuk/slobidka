@@ -438,4 +438,22 @@ useSeoMeta({
 .cta__title { color: #fff; }
 .cta__text { margin-top: .75rem; max-width: 48ch; color: var(--night-ink2); text-wrap: pretty; }
 .cta__actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+
+/* ------------------------------------------------------ мобільні кеглі
+   Розміщено в кінці навмисно: інакше базові правила з тією ж
+   специфічністю, оголошені нижче, перекрили б медіазапит. */
+@media (max-width: 40rem) {
+  .hero__lead { font-size: 1.1rem; line-height: 1.6; }
+
+  .stats__item { padding: 1.4rem 1rem; }
+  .stats__value { font-size: 2.15rem; }
+  .stats__label { font-size: .95rem; line-height: 1.4; }
+
+  .route__text { font-size: 1rem; }
+  .route__go { font-size: .98rem; }
+  .mat__title { font-size: 1.1rem; }
+  .mat__lead { font-size: .98rem; }
+
+  .cta__text { font-size: 1.05rem; }
+}
 </style>

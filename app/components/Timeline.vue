@@ -223,6 +223,14 @@ function outward(e: TlEvent) {
 .tl__more:hover { gap: .65rem; }
 .tl__more .ico { transition: transform .18s; }
 
+/* ------------------------------------------------------ мобільні кеглі */
+@media (max-width: 40rem) {
+  .tl__year-count { font-size: .8rem; }
+  .tl__date--inline { font-size: .85rem; }
+  .tl__prose { font-size: 1.09rem; }
+  .tl__more { font-size: 1rem; }
+}
+
 /* ------------------------------------------------------ широкі екрани */
 @media (min-width: 60rem) {
   .tl { --gutter: 8.5rem; }

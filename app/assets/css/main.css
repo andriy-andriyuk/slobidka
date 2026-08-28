@@ -345,6 +345,22 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .skip-link:focus { transform: none; }
 
+/* ------------------------------------------------- мобільна типографіка
+   На вузьких екранах допоміжний текст читається гірше, ніж на десктопі,
+   тож піднімаємо кеглі другорядних елементів до комфортного порога. */
+@media (max-width: 40rem) {
+  body { font-size: 1.09rem; }
+
+  .eyebrow { font-size: .82rem; }
+
+  .lead { font-size: 1.15rem; line-height: 1.55; }
+
+  .prose { font-size: 1.09rem; }
+  .prose .doc-pages { font-size: .85rem; }
+
+  .btn { font-size: 1rem; padding: .78rem 1.25rem; }
+}
+
 /* -------------------------------------------------------------- друк */
 @media print {
   .no-print { display: none !important; }

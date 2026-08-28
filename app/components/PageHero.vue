@@ -72,4 +72,9 @@ defineProps<{
   text-transform: uppercase;
   color: var(--ink-2);
 }
+
+@media (max-width: 40rem) {
+  .ph__meta li { font-size: .8rem; }
+  .ph__back { font-size: .95rem; }
+}
 </style>
